@@ -9,7 +9,7 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "OpenShift Spring Boot DEV v1.0";
+        return "OpenShift Spring Boot PROD v1.0";
     }
 
     public static void main(String[] args) throws Exception {
