@@ -40,7 +40,6 @@ pipeline {
     post {
         failure {
             echo 'failure ... !'
-            mail to: 'abbasih@labcorp.com', subject: 'Pipeline failed', body: "${env.BUILD_URL}"
         }
     }
 }
