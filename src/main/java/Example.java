@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @EnableAutoConfiguration
 public class Example {
-
     @RequestMapping("/")
     String home() {
         return "OpenShift Spring Boot DEV v1.1;
