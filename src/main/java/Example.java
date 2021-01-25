@@ -11,6 +11,7 @@ public class Example {
         return "OpenShift Spring Boot DEV v1.1;
     }
 
+    
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Example.class, args);
     }
