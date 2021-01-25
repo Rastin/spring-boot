@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class Example {
     @RequestMapping("/")
     String home() {
+        
                 return "OpenShift Spring Boot DEV v1.1;
     }
 
