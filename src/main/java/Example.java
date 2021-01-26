@@ -10,7 +10,7 @@ public class Example {
     String home() {
         
         
-                return "OpenShift Spring Boot DEV v1.1;
+                return "OpenShift Spring Boot DEV v1.1.1;
     }
 
     
