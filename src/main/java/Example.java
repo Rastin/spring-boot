@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class Example {
     @RequestMapping("/")
     String home() {
-        return "OpenShift Spring Boot DEV v2.0.2";
+        return "OpenShift Spring Boot DEV v2.0.3";
     }
 
     public static void main(String[] args) throws Exception {
